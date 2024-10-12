@@ -6,10 +6,21 @@
     <title>multi-mp3-playback</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>multi-mp3-playback</h1>
+
+    <audio id="audio1" src="file1.mp3"></audio>
+    <audio id="audio2" src="file2.mp3"></audio>
+    <audio id="audio3" src="file3.mp3"></audio>
+    <audio id="audio4" src="file4.mp3"></audio>
+
     <button onclick="playAudios()">Play Audios</button>
     <script>
-      function playAudios() {}
+      function playAudios() {
+        const audio1 = document.getElementById('audio1');
+        const audio2 = document.getElementById('audio2');
+        const audio3 = document.getElementById('audio3');
+        const audio4 = document.getElementById('audio4');
+      }
     </script>
   </body>
 </html>
